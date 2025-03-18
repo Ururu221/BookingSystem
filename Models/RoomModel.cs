@@ -5,8 +5,6 @@ namespace BookingSystem_web_api.Models
 {
     public class RoomModel
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
 
         public string RoomType { get; set; } = string.Empty; // "Conference" or "Bedroom"
@@ -17,7 +15,7 @@ namespace BookingSystem_web_api.Models
 
         public bool IsAvailable { get; set; }
 
-        public List<Reservation>? Reservation { get; set; }
+        public List<Reservation>? Reservation { get; set; } = new List<Reservation>();
 
         public decimal Price { get; set; }
     }

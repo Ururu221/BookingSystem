@@ -15,6 +15,7 @@ namespace BookingSystem_web_api.Repositories
 
         public async Task<Reservation> CreateReservationAsync(Reservation reservation)
         {
+            reservation.Id = Guid.NewGuid();
             _db.Reservations.Add(reservation);
             await _db.SaveChangesAsync();
             return reservation;

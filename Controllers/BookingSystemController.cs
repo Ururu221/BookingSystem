@@ -40,7 +40,7 @@ namespace BookingSystem_web_api.Controllers
         public async Task<IActionResult> Update(RoomModel room)
         {
             var newRoom = await _bookingService.UpdateRoomAsync(room);
-            return CreatedAtAction("Get", newRoom);
+            return Ok(newRoom);
         }
 
         [HttpDelete]

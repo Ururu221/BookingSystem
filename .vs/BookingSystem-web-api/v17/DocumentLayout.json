@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\bookingsystem-web-api\\models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|solutionrelative:models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\bookingsystem-web-api\\controllers\\bookingsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|solutionrelative:controllers\\bookingsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\bookingsystem-web-api\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\bookingsystem-web-api\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|solutionrelative:repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\bookingsystem-web-api\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|solutionrelative:repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\bookingsystem-web-api\\services\\interfaces\\ibookinginterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|solutionrelative:services\\interfaces\\ibookinginterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\bookingsystem-web-api\\models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|solutionrelative:models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FA5AEC1-CCC3-4C3D-97E7-868697B49E3F}|BookingSystem-web-api.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\bookingsystem-web-api\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,11 +49,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T15:09:06.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBookingInterface.cs",
+              "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Services\\Interfaces\\IBookingInterface.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IBookingInterface.cs",
+              "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Services\\Interfaces\\IBookingInterface.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IBookingInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T15:07:10.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Repositories\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Repositories\\RoomRepository.cs",
+              "RelativeToolTip": "Repositories\\RoomRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T15:02:34.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AppDbContext.cs",
@@ -53,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "Models\\Reservation.cs",
@@ -65,19 +116,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "RoomModel.cs",
               "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Models\\RoomModel.cs",
               "RelativeDocumentMoniker": "Models\\RoomModel.cs",
               "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Models\\RoomModel.cs",
               "RelativeToolTip": "Models\\RoomModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T13:27:53.871Z"
+              "WhenOpened": "2025-03-18T13:27:53.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -89,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\web-API-project1\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "..\\web-API-project1\\Controllers\\TasksController.cs",
@@ -101,27 +153,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BookingSystemController.cs",
               "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Controllers\\BookingSystemController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookingSystemController.cs",
               "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Controllers\\BookingSystemController.cs",
               "RelativeToolTip": "Controllers\\BookingSystemController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T12:27:33.781Z"
+              "WhenOpened": "2025-03-18T12:27:33.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BookingService.cs",
               "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Services\\BookingService.cs",
               "RelativeDocumentMoniker": "Services\\BookingService.cs",
               "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\BookingSystem-web-api\\Services\\BookingService.cs",
               "RelativeToolTip": "Services\\BookingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwEIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T12:40:06.456Z"
+              "WhenOpened": "2025-03-18T12:40:06.456Z",
+              "EditorCaption": ""
             }
           ]
         }

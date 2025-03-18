@@ -15,6 +15,7 @@ namespace BookingSystem_web_api.Repositories
 
         public async Task<RoomModel> CreateRoomAsync(RoomModel room)
         {
+            room.Id = Guid.NewGuid();
             _db.Rooms.Add(room);
             await _db.SaveChangesAsync();
             return room;
@@ -29,12 +30,12 @@ namespace BookingSystem_web_api.Repositories
 
         public async Task<IEnumerable<RoomModel>> GetAllAsync()
         {
-            return  await _db.Rooms.ToListAsync();
+            return  await _db.Rooms.Include(r => r.Reservation).ToListAsync();
         }
 
         public async Task<RoomModel> GetByIdAsync(Guid id)
         {
-            var room = await _db.Rooms.FirstOrDefaultAsync(r => r.Id == id);
+            var room = await _db.Rooms.Include(r => r.Reservation).FirstOrDefaultAsync(r => r.Id == id);
             return room ?? throw new Exception("Room with this ID was not found");
         }
 
@@ -50,7 +51,7 @@ namespace BookingSystem_web_api.Repositories
             oldRoom.IsAvailable = room.IsAvailable;
 
             await _db.SaveChangesAsync();
-            return room;
+            return oldRoom;
         }
     }
 }
