@@ -11,7 +11,7 @@
 
         public bool IsAvailable { get; set; }
 
-        public List<Reservation>? reservation { get; set; }
+        public List<Reservation>? Reservation { get; set; }
 
         public decimal Price { get; set; }
     }
