@@ -1,4 +1,10 @@
 
+using BookingSystem_web_api.Repositories.Interfaces;
+using BookingSystem_web_api.Repositories;
+using BookingSystem_web_api.Services.Interfaces;
+using BookingSystem_web_api.Services;
+using Microsoft.EntityFrameworkCore;
+
 namespace BookingSystem_web_api
 {
     public class Program
@@ -7,16 +13,18 @@ namespace BookingSystem_web_api
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddDbContext<AppDbContext>(options => 
+                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+            builder.Services.AddScoped<IBookingRepository, BookingRepository>();
+            builder.Services.AddScoped<IBookingService, BookingService>();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -26,7 +34,6 @@ namespace BookingSystem_web_api
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 

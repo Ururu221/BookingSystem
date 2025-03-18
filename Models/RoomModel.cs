@@ -1,8 +1,14 @@
-﻿namespace BookingSystem_web_api.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace BookingSystem_web_api.Models
 {
     public class RoomModel
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
+
         public string RoomType { get; set; } = string.Empty; // "Conference" or "Bedroom"
 
         public int HumanCapacity { get; set; }

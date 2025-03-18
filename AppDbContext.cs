@@ -33,7 +33,7 @@ namespace BookingSystem_web_api
 
             modelBuilder.Entity<Reservation>(entity =>
             {
-                entity.ToTable("Reservations", "Booking");
+                entity.ToTable("Reservations", "booking");
 
                 entity.HasKey(r => r.Id);
                 entity.HasOne<RoomModel>()
