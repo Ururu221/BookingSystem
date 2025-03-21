@@ -55,7 +55,7 @@ namespace BookingSystem_web_api.Services
             await _bookingRepository.CreateReservationAsync(reservation);
 
             //
-            room.IsAvailable = await IsRoomAvailableAsync(roomId, reservation.From, reservation.To); 
+            room.IsAvailable = false; 
             await _roomRepository.UpdateRoomAsync(room);
 
             return room;
