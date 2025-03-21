@@ -73,13 +73,14 @@ Visit: [http://localhost:5000/swagger](http://localhost:5000/swagger) or [http:/
 
 ## 📃 Available API Endpoints
 
-### 🚪 Rooms
-- `GET /api/rooms` — Get all rooms
-- `POST /api/rooms` — Create a new room
+### 📚 BookingSystem Controller
 
-### ✅ Bookings
-- `GET /api/bookings` — Get all bookings
-- `POST /api/bookings` — Create a booking
+- `GET    /api/BookingSystem`              → Get all rooms
+- `GET    /api/BookingSystem/{id}`         → Get a specific room by ID
+- `POST   /api/BookingSystem`              → Create a new room
+- `PUT    /api/BookingSystem`              → Update an existing room
+- `DELETE /api/BookingSystem`              → Delete a room
+- `POST   /api/BookingSystem/book/{roomId}` → Book a room by ID
 
 ### ❓ Test Endpoint
 - `GET /` — Returns "Hello World!" (basic health check)
