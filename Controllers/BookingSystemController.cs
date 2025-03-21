@@ -50,7 +50,7 @@ namespace BookingSystem_web_api.Controllers
             return NoContent();
         }
 
-        [HttpGet("book/{roomId}")]
+        [HttpPost("book/{roomId}")]
         public async Task<IActionResult> Book(Guid roomId, Reservation reservation) 
         {
             var room = await _bookingService.BookRoomAsync(roomId, reservation);
