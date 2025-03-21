@@ -21,14 +21,13 @@ This project demonstrates good architectural practices, scalability, and readabi
 
 ```
 BookingSystem/
-├── BookingSystem-web-api/         # Main Web API project
-│   ├── Controllers/               # API endpoints
-│   ├── Services/                  # Business logic
-│   ├── Repositories/             # Data access logic
-│   ├── Models/                   # DTOs and EF entities
-│   └── appsettings.json          # Config file with connection string
-├── BookingSystem.Tests/          # Unit test project (xUnit + Moq)
-├── BookingSystem-web-api.sln     # Solution file
+├── Controllers/                # API endpoints
+├── Services/                   # Business logic
+├── Repositories/               # Data access logic
+├── Models/                     # DTOs and EF entities
+├── appsettings.json            # Config file with connection string
+├── BookingSystem.Tests/        # Unit test project (xUnit + Moq)
+├── BookingSystem-web-api.sln   # Solution file
 ```
 
 ---
