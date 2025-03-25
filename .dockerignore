@@ -1,0 +1,14 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/.git/
+**/.vs/
+**/*.user
+**/*.suo
+**/*.swp
+**/*.log
+**/*.db
+**/*.mdf
+**/*.ldf
+**/secrets.json
+**/appsettings.Development.json

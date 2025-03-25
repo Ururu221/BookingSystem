@@ -1,0 +1,26 @@
+services:
+  bookingapi:
+    build:
+      context: .  # Говорим, что нужно собирать из текущей папки
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+       - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=room_booking_system;Username=postgres;Password=2413050505
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: room_booking_system
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 2413050505
+    ports:
+      - "1234:5432"  
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

@@ -4,7 +4,7 @@ using BookingSystem_web_api.Services.Interfaces;
 
 namespace BookingSystem_web_api.Services
 {
-    public class BookingService : IBookingService
+    public class BookingService : IBooking
     {
         private readonly IRoomRepository _roomRepository;
         private readonly IBookingRepository _bookingRepository;

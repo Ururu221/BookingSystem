@@ -2,7 +2,7 @@
 
 namespace BookingSystem_web_api.Services.Interfaces
 {
-    public interface IBookingService
+    public interface IBooking
     {
         Task<RoomModel> GetRoomAsync(Guid id);
 

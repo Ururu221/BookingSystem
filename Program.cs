@@ -21,7 +21,7 @@ namespace BookingSystem_web_api
                 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<IRoomRepository, RoomRepository>();
             builder.Services.AddScoped<IBookingRepository, BookingRepository>();
-            builder.Services.AddScoped<IBookingService, BookingService>();
+            builder.Services.AddScoped<IBooking, BookingService>();
 
             var app = builder.Build();
 
@@ -36,6 +36,8 @@ namespace BookingSystem_web_api
             app.UseAuthorization();
 
             app.MapControllers();
+
+            app.MapGet("/", () => "Hello World!");
 
             app.Run();
         }
