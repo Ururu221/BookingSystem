@@ -61,8 +61,7 @@
               "RelativeToolTip": "Repositories\\BookingRepository.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAwwC0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T15:09:06.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T15:09:06.579Z"
             },
             {
               "$type": "Document",
@@ -135,8 +134,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T12:58:50.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T12:58:50.346Z"
             },
             {
               "$type": "Document",
@@ -158,8 +156,7 @@
               "RelativeToolTip": "Controllers\\BookingSystemController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T12:27:33.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T12:27:33.781Z"
             },
             {
               "$type": "Document",
@@ -171,8 +168,7 @@
               "RelativeToolTip": "Services\\BookingService.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAYwDAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T12:40:06.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T12:40:06.456Z"
             }
           ]
         }
