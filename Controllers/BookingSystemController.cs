@@ -8,9 +8,9 @@ namespace BookingSystem_web_api.Controllers
     [ApiController]
     public class BookingSystemController : Controller
     {
-        private readonly IBookingService _bookingService;
+        private readonly IBooking _bookingService;
 
-        public BookingSystemController(IBookingService bookingService)
+        public BookingSystemController(IBooking bookingService)
         {
             _bookingService = bookingService;
         }
